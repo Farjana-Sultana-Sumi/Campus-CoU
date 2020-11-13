@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    tools:ignore="ContentDescription"
+    >
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+                android:id="@+id/txt"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:layout_marginTop="20dp"
+                android:maxLines="1"
+                android:background="@drawable/login_edittext_style"
+                android:textColor="@color/colorBackground"
+                android:layout_above="@id/txtemail"
+        android:paddingLeft="10dp"/>
+
+
+
+    <EditText
+                android:id="@+id/txtemail"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+        android:textColor="@color/colorBackground"
+                android:layout_above="@id/txtpass"
+        android:paddingLeft="10dp"
+        android:background="@drawable/login_edittext_style"/>
+    <EditText
+        android:id="@+id/txtpass"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColor="@color/colorBackground"
+        android:layout_above="@id/btnreg"
+        android:paddingLeft="10dp"
+        android:background="@drawable/login_edittext_style" />
+    <Button
+            android:id="@+id/btnreg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@color/colorTextHint"
+            android:text="REGISTER"
+            android:layout_above="@+id/btnlogin"
+        android:textColor="@android:color/white"/>
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorTextHint"
+        android:text="LOGIN"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

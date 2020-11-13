@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "101935500460",
+    "firebase_url": "https://campuscou-eb337.firebaseio.com",
+    "project_id": "campuscou-eb337",
+    "storage_bucket": "campuscou-eb337.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101935500460:android:99f55678b4f8e685",
+        "android_client_info": {
+          "package_name": "farjana.mycampus.com.campuscou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101935500460-7s76ma91oq6r7c38hq8e0peq62f1tq3u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "farjana.mycampus.com.campuscou",
+            "certificate_hash": "200cdf259cf6336d3319234f1aea6c8f0e6f390c"
+          }
+        },
+        {
+          "client_id": "101935500460-o7dbd6uoc1hsar31vmbisqukolm04bvu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR6rRYc9IAcozc1Kq7nuzUjp0fFQTLi2g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101935500460-o7dbd6uoc1hsar31vmbisqukolm04bvu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu1" android:title="About CoU" android:icon="@drawable/about"/>
+    <item android:id="@+id/menu2" android:title="Administration" android:icon="@drawable/administration"/>
+    <item android:id="@+id/menu3" android:title="Faculty" android:icon="@drawable/faculty"/>
+    <item android:id="@+id/menu4" android:title="Facilities" android:icon="@drawable/facilities"/>
+    <item android:id="@+id/menu5" android:title="Contact" android:icon="@drawable/contact"/>
+</menu>
